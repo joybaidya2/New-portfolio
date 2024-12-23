@@ -1,0 +1,9 @@
+/* here is navbar background color */
+nav{
+    background-color: rgba(36, 36, 36, 0.623);
+}
+/* Body background color*/
+
+body{
+    background: linear-gradient(90deg,  #69af62, #000000);
+}
