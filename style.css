@@ -3,7 +3,28 @@ nav{
     background-color: rgba(36, 36, 36, 0.623);
 }
 /* Body background color*/
-
 body{
-    background: linear-gradient(90deg,  #69af62, #000000);
+    background: linear-gradient(90deg,  #3a7f5a, #000000);
+}
+#first-card{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#project-card{
+    background: linear-gradient(90deg, #5d502f, #4ea6b5);
+    border: 1px solid aqua;
+}
+#project-card:hover{
+    background: linear-gradient(90deg,#212121,#3a7f5a);
+    transition: .5s;
+    box-shadow: 0 0 15px white;
+}
+#web-dev{
+    background: linear-gradient(90deg,#1e303c,#234d3a);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border: 1px solid yellowgreen;
+}
+#web-dev:hover{
+    background: linear-gradient(90deg,#47718d,#173226);
+    box-shadow: 0 0 15px white;
+    transition: .5s;
 }

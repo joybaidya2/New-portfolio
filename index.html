@@ -32,14 +32,15 @@
                 class="hidden sm:flex gap-8 text-md font-bold sm:static sm:flex-row sm:space-y-0 space-y-4 sm:bg-transparent bg-[#1b1b1b] absolute top-16 right-6 p-2 rounded-lg shadow-lg sm:shadow-none">
                 <li><a href="#home" class="hover:text-amber-400 text-amber-400">Home</a></li>
                 <li><a href="#about" class="hover:text-amber-400">About</a></li>
-                <li><a href="#projects" class="hover:text-amber-400">Projects</a></li>
+                <li><a href="#project" class="hover:text-amber-400">Projects</a></li>
+                <li><a href="#skill" class="hover:text-amber-400">Skills</a></li>
                 <li><a href="#service" class="hover:text-amber-400">Service</a></li>
                 <li><a href="#contact" class="hover:text-amber-400">Contact</a></li>
             </ul>
         </div>
     </nav>
     <!--Name and details section.-->
-    <main>
+    <main id="home">
         <div class="grid md:grid-cols-2 p-5 md:p-10 px-8 lg:px-20 md:px-14">
             <div class="text-white mt-6 md:mt-14">
                 <h1 class="font-bold text-3xl md:text-5xl lg:text-6xl italic">It's <span
@@ -68,11 +69,11 @@
         </div>
     </main>
     <!--About section-->
-    <section>
+    <section id="about">
         <div class="grid md:grid-cols-2 mt-8 md:mt-28 px-8 md:px-20 gap-10">
-            <div class="max-w-sm  bg-white rounded-lg shadow-2xl shadow-white overflow-hidden border-2 border-white ">
+            <div id="first-card" class="max-w-sm  bg-white rounded-lg overflow-hidden border-2 border-white ">
                 <!-- Profile Picture -->
-                <div class="relative bg-green-700 p-6 pt-28">
+                <div class="relative bg-emerald-800 p-6 pt-28">
                     <div class="absolute  left-[50%] transform -translate-x-1/2 -translate-y-1/2">
                         <div class="w-32 h-32 rounded-full border-4 border-yellow-500 overflow-hidden">
                             <img src="joy2.jpg" alt="Profile Picture" class="w-full h-full object-cover">
@@ -107,15 +108,16 @@
             <div class="text-white mt-8 md:mt-16 lg:mt-20">
                 <h1 class="text-center mt-6 text-3xl font-bold"><span class="text-5xl text-amber-400">A</span>bout Me
                 </h1>
-                <p class="text-base font-medium mt-6"><span class="font-bold text-3xl text-amber-400 italic">I am Joy
-                        ,</span> from Bangladesh. I am 23 years old. I am studying in Green University in Bangladesh. My
+                <p class="text-base font-medium mt-6"><span class="font-bold text-3xl text-amber-400 italic">I am
+                        Joy,</span> from Bangladesh. I am 23 years old. I am studying in Green University in Bangladesh.
+                    My
                     major is Computer Science and Engineering. I am Web Developer and designer. I have rich experience
                     in this field of dynamics. I wood love to talk to you about our uniques.</p>
             </div>
         </div>
         <!--Skill section-->
-        <section class="mt-28 mx-8 sm:mx-14 md:mx-20 lg:max-w-7xl lg:mx-auto lg:px-24">
-            <div id="skill" class="text-white text-center font-bold text-4xl mt-40 italic mb-6">
+        <section id="skill" class="md:mt-32 mt-12 mx-8 sm:mx-14 md:mx-20 lg:max-w-7xl lg:mx-auto lg:px-24">
+            <div id="skill" class="text-white text-center font-bold text-4xl italic mb-6">
                 <h1>My Skill</h1>
                 <div class="mx-auto my-1 h-1 bg-white w-48 rounded-xl"></div>
             </div>
@@ -224,7 +226,200 @@
             </div>
             </div>
         </section>
-
+        <!--Project section..-->
+        <section id="project">
+            <h1 class="text-center text-white text-4xl font-bold lg:mt-12 md:mt-8 mt-5 mb-6">Project Here.</h1>
+            <div
+                class="grid md:grid-cols-2 lg:grid-cols-3 mx-7 md:mx-12 lg:mx-24 md:gap-10 lg:gap-20 space-y-10 md:space-y-0 mt-10">
+                <div id="project-card" class="text-white text-center px-6 p-4 rounded-md">
+                    <h1 class="text-xl font-bold mb-4">Portfolio</h1>
+                    <a href="https://joybaidya2.github.io/Tailwind-start-kit/" target="_blank"><img class="rounded-md"
+                            src="image1.png" alt="Project image 1.."></a>
+                    <p class="mt-4 font-medium mb-6">Here I have made one of my portfolio design. I have added some
+                        beautiful animation into this.</p>
+                    <a class="bg-black py-1 px-2 border-2 border-amber-500 rounded-full"
+                        href="https://github.com/joybaidya2"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div id="project-card" class="text-white text-center px-6 p-4 rounded-md">
+                    <h1 class="text-xl font-bold mb-4">Portfolio</h1>
+                    <a href="https://joybaidya2.github.io/Dress-Shop/"><img class="rounded-md" src="image2.png"
+                            alt="Project image 1.."></a>
+                    <p class="mt-4 font-medium mb-6">Here I have made one of my portfolio design. I have added some
+                        beautiful animation into this.</p>
+                    <a class="bg-black py-1 px-2 border-2 border-amber-500 rounded-full"
+                        href="https://github.com/joybaidya2"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div id="project-card" class="text-white text-center px-6 p-4 rounded-md">
+                    <h1 class="text-xl font-bold mb-4">Portfolio</h1>
+                    <a href="https://joybaidya2.github.io/LaslesVPN-Project/"><img class="rounded-md" src="image3.png"
+                            alt="Project image 1.."></a>
+                    <p class="mt-4 font-medium mb-6">Here I have made one of my portfolio design. I have added some
+                        beautiful animation into this.</p>
+                    <a class="bg-black py-1 px-2 border-2 border-amber-500 rounded-full"
+                        href="https://github.com/joybaidya2"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div id="project-card" class="text-white text-center px-6 p-4 rounded-md">
+                    <h1 class="text-xl font-bold mb-4">Portfolio</h1>
+                    <a href="https://joybaidya2.github.io/Simple-and-Standard-webpage/"><img class="rounded-md"
+                            src="image4.png" alt="Project image 1.."></a>
+                    <p class="mt-4 font-medium mb-6">Here I have made one of my portfolio design. I have added some
+                        beautiful animation into this.</p>
+                    <a class="bg-black py-1 px-2 border-2 border-amber-500 rounded-full"
+                        href="https://github.com/joybaidya2"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div id="project-card" class="text-white text-center px-6 p-4 rounded-md">
+                    <h1 class="text-xl font-bold mb-4">Portfolio</h1>
+                    <a href="https://joybaidya2.github.io/Kitchen-interior-design/"><img class="rounded-md"
+                            src="image5.png" alt="Project image 1.."></a>
+                    <p class="mt-4 font-medium mb-6">Here I have made one of my portfolio design. I have added some
+                        beautiful animation into this.</p>
+                    <a class="bg-black py-1 px-2 border-2 border-amber-500 rounded-full"
+                        href="https://github.com/joybaidya2"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div id="project-card" class="text-white text-center px-6 p-4 rounded-md">
+                    <h1 class="text-xl font-bold mb-4">Portfolio</h1>
+                    <a href="https://joybaidya2.github.io/Html-responsive-wood-shop/"><img class="rounded-md"
+                            src="image6.png" alt="Project image 1.."></a>
+                    <p class="mt-4 font-medium mb-6">Here I have made one of my portfolio design. I have added some
+                        beautiful animation into this.</p>
+                    <a class="bg-black py-1 px-2 border-2 border-amber-500 rounded-full"
+                        href="https://github.com/joybaidya2"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--Service Section.-->
+        <section id="service">
+            <h1 class="text-center text-white font-bold text-4xl mt-8 md:mt-16">Service Section</h1>
+            <div
+                class="grid md:grid-cols-2 lg:grid-cols-3 mx-7 md:mx-12 lg:mx-12 md:gap-10 lg:gap-14 space-y-10 md:space-y-0 mt-10">
+                <div id="web-dev" class="border border-amber-500 text-center p-8 rounded-md">
+                    <p class="text-center text-4xl mb-3 text-lime-500"><i class="fa-solid fa-code"></i></p>
+                    <h1 class="text-amber-500 font-bold text-2xl mb-3">Web Developmet</h1>
+                    <p class="text-white font-medium text-lg">Join with me in the dynamic world of amaizing web
+                        application.</p>
+                    <button
+                        class="mt-4 bg-lime-500 hover:bg-lime-700 px-6 py-2 text-white font-bold text-lg rounded-md">Read
+                        More</button>
+                </div>
+                <div id="web-dev" class="border border-amber-500 text-center p-8 rounded-md">
+                    <p class="text-center text-4xl mb-3 text-lime-500"><i class="fa-solid fa-pen"></i></p>
+                    <h1 class="text-amber-500 font-bold text-2xl mb-3">UI/UX Design</h1>
+                    <p class="text-white font-medium text-lg">Design your beautiful website by the touch of my soul.</p>
+                    <button
+                        class="mt-4 bg-lime-500 hover:bg-lime-700 px-6 py-2 text-white font-bold text-lg rounded-md">Read
+                        More</button>
+                </div>
+                <div id="web-dev" class="border border-amber-500 text-center p-8 rounded-md">
+                    <p class="text-center text-4xl mb-3 text-lime-500"><i class="fa-solid fa-message"></i></p>
+                    <h1 class="text-amber-500 font-bold text-2xl mb-3">Customer support</h1>
+                    <p class="text-white font-medium text-lg">Keep in touch with me whenever and whereever you want.</p>
+                    <button
+                        class="mt-4 bg-lime-500 hover:bg-lime-700 px-6 py-2 text-white font-bold text-lg rounded-md">Read
+                        More</button>
+                </div>
+            </div>
+        </section>
+        <!--Contect Section.-->
+        <h1 class="text-white font-bold text-4xl text-center mt-8 mb-8">Contact Section</h1>
+        <section id="contact" class="bg-gray-900 text-white py-16 px-6 mx-5 md:mx-10 lg:max-w-7xl lg:mx-auto rounded-lg border-r border-l border-white mb-8">
+            <div class="container mx-auto max-w-5xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg">
+                        <form action="#" method="POST" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-white mb-2">Your Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" required class="w-full p-3 bg-gray-900 border border-white rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-yellowgreen focus:outline-none" />
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-white mb-2">Your Email</label>
+                                <input type="email" id="email" placeholder="Enter your email" required class="w-full p-3 bg-gray-900 border border-white rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-yellowgreen focus:outline-none" />
+                            </div>
+                            <div>
+                                <label for="subject"
+                                    class="block text-sm font-medium text-white mb-2">Subject</label>
+                                <input type="text" id="subject" placeholder="Enter the subject"
+                                    class="w-full p-3 bg-gray-900 border border-white rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-yellowgreen focus:outline-none" />
+                            </div>
+                            <div>
+                                <label for="message"
+                                    class="block text-sm font-medium text-white mb-2">Message</label>
+                                <textarea id="message" placeholder="Write your message here..." rows="4" required
+                                    class="w-full p-3 bg-gray-900 border border-white rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-yellowgreen focus:outline-none"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit"
+                                    class="w-full bg-yellowgreen text-white font-medium py-3 rounded-lg hover:bg-white hover:text-black hover:border-black hover:border transition">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="md:ml-32 md:mt-36 space-y-4">
+                        <div class="flex items-start space-x-4 ">
+                            <div>
+                                <span class="text-yellowgreen text-xl">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Our Address</h4>
+                                <p class="text-gray-400">
+                                    Dhaka, Mirpur, Bangladesh
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div>
+                                <span class="text-yellowgreen text-xl">
+                                    <i class="fas fa-phone-alt"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Phone</h4>
+                                <p class="text-gray-400">+88000000000</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div>
+                                <span class="text-yellowgreen text-xl">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Email</h4>
+                                <p class="text-gray-400">.......@gmail.com</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-lg mb-4">Follow Us</h4>
+                            <div class="flex items-center space-x-4">
+                                <a href="#" class="text-gray-400 hover:text-yellowgreen transition"
+                                    aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-yellowgreen transition"
+                                    aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-yellowgreen transition"
+                                    aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-yellowgreen transition"
+                                    aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                               
+                            </div>
+                            <div>
+                                <a href="" class="text-gray-400 hover:text-yellowgreen transition mt-6">&copy;All rights reserved Developed Joy </a>
+                               </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
         <script src="javaScript.js"></script>
 
 </body>
